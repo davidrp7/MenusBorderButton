@@ -9,8 +9,8 @@
     </style>
 
     <style name="raisedButton">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorbuttonnormal">@color/colorPrimary</item>
+        <item name="colorhigliht">@color/colorPrimaryDark</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 
