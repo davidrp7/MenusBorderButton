@@ -6,12 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.aula7.ejercicio3marzolayout.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_item"
+            android:padding="30dp"
+            android:layout_marginBottom="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hola mundo"/>
 
+        </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimaryDark"/>
 
-        <Button
+       <!-- <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola Mundo"
@@ -29,7 +46,15 @@
             android:text="Hola Mundo"
             android:theme="@style/RaisedButtondark"
             android:drawableLeft="@drawable/icons8_guardar_filled_50"
-            android:drawablePadding="5dp"/>
+            android:drawablePadding="5dp"/>-->
+
+<!--        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+
+
+            />-->
 
 
 
