@@ -8,9 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="raisedButton">
-        <item name="colorbuttonnormal">@color/colorPrimary</item>
-        <item name="colorhigliht">@color/colorPrimaryDark</item>
+    <style name="RaisedButtondark">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 
